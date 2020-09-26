@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Calculadora.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculadora"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBox x:ConnectionId='18' Width="470" Height="40" x:Name="pantalla" TextAlignment="Right"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <Button x:ConnectionId='14' x:Name="btn1" Content="1" Width="100" Height="100" Margin="10,0,10,0"                    Background="Red"></Button>
+                <Button x:ConnectionId='15' x:Name="btn2" Content="2" Width="100" Height="100" Margin="10,0,10,0"                    Background="Blue"></Button>
+                <Button x:ConnectionId='16' x:Name="btn3" Content="3" Width="100" Height="100" Margin="10,0,10,0"                    Background="Green"></Button>
+                <Button x:ConnectionId='17' x:Name="btnDividir" Content="/" Width="100" Height="100" Margin="10,0,10,0"                          Background="AliceBlue"></Button>
+            </StackPanel> 
+            <StackPanel Orientation="Horizontal" >
+                <Button x:ConnectionId='10' x:Name="btn4" Content="4" Width="100" Height="100" Margin="10,0,10,0"                    Background="AntiqueWhite"></Button>
+                <Button x:ConnectionId='11' x:Name="btn5" Content="5" Width="100" Height="100" Margin="10,0,10,0"                    Background="Aqua"></Button>
+                <Button x:ConnectionId='12' x:Name="btn6" Content="6" Width="100" Height="100" Margin="10,0,10,0"                    Background="Azure"></Button>
+                <Button x:ConnectionId='13' x:Name="btnProducto" Content="*" Width="100" Height="100" Margin="10,0,10,0"                           Background="Beige"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <Button x:ConnectionId='6' x:Name="btn7" Content="7" Width="100" Height="100" Margin="10,0,10,0"                    Background="BlanchedAlmond"></Button>
+                <Button x:ConnectionId='7' x:Name="btn8" Content="8" Width="100" Height="100" Margin="10,0,10,0"                    Background="BurlyWood"></Button>
+                <Button x:ConnectionId='8' x:Name="btn9" Content="9" Width="100" Height="100" Margin="10,0,10,0"                    Background="Cyan"></Button>
+                <Button x:ConnectionId='9' x:Name="btnMas" Content="+" Width="100" Height="100" Margin="10,0,10,0"                      Background="Crimson"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <Button x:ConnectionId='2' x:Name="btnatras" Content="C" Width="100" Height="100" Margin="10,0,10,0"                        Background="DarkCyan"></Button>
+                <Button x:ConnectionId='3' x:Name="btncero" Content="0" Width="100" Height="100" Margin="10,0,10,0"                       Background="DarkGoldenrod"></Button>
+                <Button x:ConnectionId='4' x:Name="btnigual" Content="=" Width="100" Height="100" Margin="10,0,10,0"                        Background="DarkOliveGreen"></Button>
+                <Button x:ConnectionId='5' x:Name="btnMenos" Content="-" Width="100" Height="100" Margin="10,0,10,0"                        Background="DarkTurquoise"></Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>
+
